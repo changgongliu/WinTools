@@ -5,4 +5,6 @@
 - 我们可以坏坏的获取账号密码呀，首先先实现一个简单，以后有需要在进行进一步添加。
 ## 项目情况
 - 采用Python的第三方库-PyHook进行键盘事件捕获。
-- PyHook利用了原生的Windows函数SetWindwosHookEx，允许我们暗黄自定义的钩子函数，当特定的windows事件发生时，钩子函数就会被调用。
+- PyHook利用了原生的Windows函数SetWindwosHookEx，允许我们自定义的钩子函数，当特定的windows事件发生时，钩子函数就会被调用。
+## 问题：
+- 目前Python 64bit3.6版本下PyHook有bug，有待解决。
